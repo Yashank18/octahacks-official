@@ -490,16 +490,16 @@ section {
 }
 .Image-box .Image-alignment {
     width: 100%;
-    min-height: 400px;
+    min-height: 300px;
     height: auto;
     object-fit: cover;
     object-position: center;
 }
 .Image-alignment img {
-    height: 450px;
+    height: 350px;
     width: auto;
     margin-left: 0%;
-    object-fit: contain;
+    object-fit: cover;
 }
 .text-headline h2 {
     color: #8166cd;
@@ -1619,3 +1619,7 @@ article{
     }
 }
 
+
+#hack{
+    margin-left: 5%;
+}
