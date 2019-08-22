@@ -1090,6 +1090,7 @@ article{
     /*background: linear-gradient(54deg, #9164ff, #8bfff4);*/
     overflow: hidden;
     background: #8166cd;
+    text-align: center;
 }
 
 .Head-bar h1{
@@ -1105,8 +1106,8 @@ article{
 .Head-bar a{
     color: white;
     text-decoration: none;
-    text-align: center;
-    margin-left: 40%;
+    text-align: center!important;
+    margin: auto;
     margin-top: 500px;
 }
 
