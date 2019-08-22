@@ -183,6 +183,10 @@ section {
     margin-top: 3px;
 }
 
+.Branding{
+    overflow: hidden;
+}
+
 .center-box h1 {
     font-size: 4em;
     line-height: 1em;
@@ -192,6 +196,7 @@ section {
     font-family: "Monoton", cursive;
     width: 100%;
     letter-spacing: 4px;
+    overflow: hidden;
 }
 
 .Image-logo{
