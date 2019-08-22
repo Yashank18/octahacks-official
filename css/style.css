@@ -1780,6 +1780,7 @@ article{
         width: 80%;
         height: 400px;
         margin-left: 10%;
+        overflow: hidden;
     }
     
     .Image-box-timeline img{
