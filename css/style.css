@@ -8,7 +8,24 @@
 
 
 
+::-webkit-scrollbar {
+    width: 0px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #8166cd;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
 
 html,
 body {
@@ -149,6 +166,12 @@ section {
     width: 100%;
     align-self: center;
     align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    align-self: center; 
     
 }
 .center-box {
@@ -161,8 +184,8 @@ section {
 }
 
 .center-box h1 {
-    font-size: 4rem;
-    line-height: 2em;
+    font-size: 4em;
+    line-height: 1em;
     font-kerning: normal;
     font-weight: lighter;
     color: rgb(255, 149, 0);
@@ -412,7 +435,7 @@ section {
     width: 100%;
 }
 .head-box {
-    width: 45%;
+    width: 65%;
     height: auto;
     float: left;
     overflow: hidden;
@@ -459,7 +482,7 @@ section {
     margin-left: 5%;
 }
 .Image-box {
-    width: 50%; 
+    width: 30%; 
     height: auto;
     float: right;
     /* border: 1px solid #8166cd; */
@@ -475,8 +498,8 @@ section {
 .Image-alignment img {
     height: 450px;
     width: auto;
-    margin-left: 10%;
-    object-fit: cover;
+    margin-left: 0%;
+    object-fit: contain;
 }
 .text-headline h2 {
     color: #8166cd;
@@ -1573,6 +1596,10 @@ article{
         background: #555;
     }
 
+    #this-head{
+        margin-top: 20%!important;
+    }
+
 
 }
 
@@ -1582,7 +1609,7 @@ article{
         object-fit: contain;
     }
     .down{
-        margin-top: 3%!important;
+        margin-top: 0%!important;
     }
 }
 
@@ -1591,3 +1618,4 @@ article{
         margin-top: -20%;
     }
 }
+
