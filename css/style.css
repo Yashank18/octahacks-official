@@ -32,26 +32,6 @@ header {
 }
 
 
-::-webkit-scrollbar {
-    width: 3px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #8166cd;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
-
 
 
 
@@ -115,7 +95,6 @@ section {
     /* min-height: 100vh; */
     height: auto;
     width: 100vw;
-    border-top: 2px solid rgb(233, 230, 230); 
 
 }
 .Container {
@@ -170,7 +149,7 @@ section {
     width: 100%;
     align-self: center;
     align-content: center;
-    /* margin-top: 30%; */
+    
 }
 .center-box {
     height: 100%;
@@ -182,7 +161,7 @@ section {
 }
 
 .center-box h1 {
-    font-size: 5em;
+    font-size: 4rem;
     line-height: 2em;
     font-kerning: normal;
     font-weight: lighter;
@@ -199,7 +178,7 @@ section {
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15%;
+    margin-top: 5%;
     margin-bottom: 0;
     position: relative;
 
@@ -391,7 +370,7 @@ section {
     }
     .Image-logo img{
         width: 100%;
-        height: 70vh!important;
+        height: 50vh!important;
     }
 
     .center-box {
@@ -1530,21 +1509,21 @@ article{
   } */
 
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 550px){
 
+      
+    .content{
+        position: relative;
+        margin-top: 0;
+        width: 100%;
+    }
+    
 
-    /*.Container{*/
-    /*    overflow: hidden;*/
-    /*}*/
-    /*.Image-logo{*/
-    /*    overflow: hidden!important;*/
-    /*    margin-top: 0%;*/
-    /*}*/
-    /*.Image-logo img {*/
-    /*    width: 100%;*/
-    /*    margin-top: -10%;*/
-    /*    overflow: hidden;*/
-    /*}*/
+    .Image-logo img{
+        margin-top: 0%!important;
+        object-fit: contain;
+
+    }
     .button {
         border: none;
         color: #fff;
@@ -1571,12 +1550,9 @@ article{
         margin-bottom: 10%;
         margin-top: 5%;
     }
-    .center-box {
-        margin-top: -25%;
-        height: auto;
-        overflow: scroll;
+    .center-box{
+        margin-top: -30%;
     }
-
     ::-webkit-scrollbar {
         width: 0px;
     }
@@ -1597,4 +1573,20 @@ article{
     }
 
 
+}
+
+@media (min-width: 900px){
+    
+    .Image-logo img{
+        object-fit: contain;
+    }
+    .down{
+        margin-top: 3%!important;
+    }
+}
+
+@media (max-width: 370px){
+    .center-box{
+        margin-top: -20%;
+    }
 }
