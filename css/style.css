@@ -177,6 +177,10 @@ section {
     width: 100%;
     text-align: center;
 }
+.center-box a {
+    margin-top: 3px;
+}
+
 .center-box h1 {
     font-size: 5em;
     line-height: 2em;
@@ -186,10 +190,7 @@ section {
     font-family: "Monoton", cursive;
     width: 100%;
     letter-spacing: 4px;
-
 }
-
-
 
 .Image-logo{
     width: 50%;
@@ -1110,7 +1111,6 @@ article{
     /*background: linear-gradient(54deg, #9164ff, #8bfff4);*/
     overflow: hidden;
     background: #8166cd;
-
 }
 
 .Head-bar h1{
@@ -1123,15 +1123,17 @@ article{
 
 }
 
-.Head-bar p{
+.Head-bar a{
     color: white;
+    text-decoration: none;
     text-align: center;
-    margin-top: 5%;
-    line-height: 1.5;
+    margin-left: 40%;
+    margin-top: 500px;
 }
 
-.Head-bar a{
-    text-align: center!important;
+.Head-bar a:hover {
+    color: rgb(250, 221, 54);
+    cursor: pointer;
 }
 
 .sponsor-type{
