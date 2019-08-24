@@ -457,7 +457,7 @@ section {
     letter-spacing: 2px;
     font-display: block;
     color: #8166cd;
-    margin-top: 10%;
+    margin-top: 3%;
     font-size: 5rem;
 }
 
@@ -901,7 +901,7 @@ article{
     display: block;
     align-items: baseline;
     position: relative;
-    top: 50%;
+    top: 30%;
     font-size: 2em;
     color: rgb(83, 83, 83);
     font-family: 'Kurale','cursive','parry Hotter','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -1312,6 +1312,7 @@ article{
     height: 100px;
     transition: 1s;
     opacity: 1;
+  
 }
 
 .tracks:hover .caption{
@@ -1320,6 +1321,8 @@ article{
     position: relative;
     z-index: 1;
     transition: 1s;
+    width: 100%;
+    height: 300px;
   
 }
 
@@ -1911,4 +1914,52 @@ article{
 
 .credits{
     margin-top: 3%;
+}
+
+
+#st{
+    transform: translateY(-100%);
+}
+
+
+.modal{
+    width: 40%;
+    height: auto;
+    overflow-y: scroll;
+    border: 5px solid #eea44f;
+}
+
+.modal a{
+    font-size: 1em;
+    color: #c0392b;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.modal p{
+    font-family: 'Kurale' ,'Raleway' , 'Courier New', Courier, monospace, inherit ;
+    font-size: 1.5rem; 
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    line-height: 1.5;
+}
+
+.link{
+    text-decoration: none;
+    font-weight: bolder;
+    color: red;
+
+}
+
+#top-sec{
+    width: 85vw;
+    margin-left: 10vw;
+}
+
+#top-sec .image-con{
+  margin: 3%;
+}
+
+.Front-Face h3{
+    color: #888;
 }

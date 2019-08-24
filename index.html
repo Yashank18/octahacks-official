@@ -48,6 +48,13 @@
 
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<!-- jQuery Modal -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
    
   </head>
 
@@ -139,10 +146,7 @@
                   In association with
                 </h1>
               </div>
-            <div class="powered-by">
-              <div class="image-con">
-                <img src="./images/chitkarablackadj.png">
-              </div>
+            <div class="powered-by" id="top-sec">
               <div class="image-con">
                   <img src="./images/ieee-woman.png">
               </div>
@@ -165,7 +169,8 @@
           <div class="head-box">
             <div class="text-details">
               <p>
-                OctaHacks 2.0 ​is the continuation to the last year hackathon event conducted by UCollege Community (Udacity) and ​ Developer Student Club ​ (DSC) together. OctaHacks provides the participants with a unique opportunity to merge their creative ideas with their technical skills to build something new and exemplary. At OctaHacks, participants can meet fellow hackers, learn new technologies, and hone their skills alongside seasoned mentors.
+                OctaHacks 2.0 ​is a social coding annual event conducted by ​ Developer Student Club (DSC)
+. OctaHacks provides the participants with a unique opportunity to merge their creative ideas with their technical skills to build something new and exemplary. At OctaHacks, participants can meet fellow hackers, learn new technologies, and hone their skills alongside seasoned mentors.
 Participants will be building a prototype in this 30 hour event. At the end, they will pitch and showcase their ideas which will be evaluated by a panel of judges to declare the top 3 teams. This is a hackathon for out-of-the-box thinkers, creatives, and innovators. It's scheduled on 20 and 21 September 2019.
               </p>
             </div>
@@ -200,29 +205,40 @@ Participants will be building a prototype in this 30 hour event. At the end, the
                 </div>
             <div class="tracks-box">
                
-              <div class="tracks">
-                <img src="./images/ml.png">
+              <div id="#ex1" class="modal:open tracks">
+                <img  src="./images/tracks/innovation3.jpg">
                 <p class="caption">
                     Artificial Intelligence &<br> Machine Learning
-                    
+                    <br>
+
+
+                    <a class="link" href="#ex1" rel="modal:open">View Problem Statement</a>
                 </p>
               </div>
+             
               <div class="tracks">
                 <img src="./images/17378fe5-c318-4895-ab57-94d6695ee59a.jpeg">
                 <p class="caption">
                   Robotics
+                  <br>
+                  <a class="link" href="#ex2" rel="modal:open">View Problem Statement</a>
               </p>
               </div>
               <div class="tracks">
                 <img src="./images/web.png">
                 <p class="caption">
                  Web Development
+                 <br>
+                 <a class="link" href="#ex3" rel="modal:open">View Problem Statement</a>
               </p>
               </div>
               <div class="tracks">
                 <img src="./images/iot.png">
                 <p class="caption">
+                    
                   I.O.T
+                  <br>
+                  <a class="link" href="#ex4" rel="modal:open">View Problem Statement</a>
               </p>
               </div>
               <div class="tracks" >
@@ -232,24 +248,32 @@ Participants will be building a prototype in this 30 hour event. At the end, the
                 <img src="./images/app.jpg">
                 <p class="caption">
                   App Development
+                  <br>
+                  <a class="link" href="#ex5" rel="modal:open">View Problem Statement</a>
               </p>
               </div>
               <div class="tracks">
                 <img src="./images/f.png">
                 <p class="caption">
                   Cloud Computing
+                  <br>
+                  <a class="link" href="#ex6" rel="modal:open">View Problem Statement</a>
               </p>
               </div>
               <div class="tracks">
                 <img src="./images/ar.jpg">
                 <p class="caption">
                   A.R/V.R
+                  <br>
+                  <a class="link" href="#ex7" rel="modal:open">View Problem Statement</a>
               </p>
               </div>
               <div class="tracks">
                 <img src="./images/bitcoin.png">
                 <p class="caption">
                  Block Chain
+                 <br>
+                 <a class="link" href="#ex8" rel="modal:open">View Problem Statement</a>
               </p>
               </div>
             </div>
@@ -362,7 +386,10 @@ Participants will be building a prototype in this 30 hour event. At the end, the
                   <h1>
                       ₹20,000
                   </h1>
-                  <p>
+                  <h3>
+                    Cash + 2.5 Lakh Grant for prototyping & prizes worth 1 Lakh
+                  </h3>
+                  <p id="st">
                     1st prize
                   </p>
                 </div>
@@ -373,6 +400,9 @@ Participants will be building a prototype in this 30 hour event. At the end, the
                 <h1>
                     ₹15,000
                 </h1>
+                <h3>
+                  Cash + Goodies worth 1,50,000
+                </h3>
                 <p>
                   2nd prize
                 </p>
@@ -384,6 +414,9 @@ Participants will be building a prototype in this 30 hour event. At the end, the
               <h1>
                   ₹10,000
               </h1>
+              <h3>
+                Cash + goodies worth 1,00,000
+              </h3>
               <p>
                 3rd prize
               </p>
@@ -527,6 +560,87 @@ Participants will be building a prototype in this 30 hour event. At the end, the
 
     </article>
 
+
+    <div id="ex1" class="modal">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<br>
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <a href="#" rel="modal:close">Close</a>
+    </div>
+
+    <div id="ex2" class="modal">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  <br>
+  
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <a href="#" rel="modal:close">Close</a>
+      </div>
+
+      <div id="ex3" class="modal">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <br>
+    
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <a href="#" rel="modal:close">Close</a>
+        </div>
+
+        <div id="ex4" class="modal">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      <br>
+      
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="#" rel="modal:close">Close</a>
+          </div>
+
+          <div id="ex5" class="modal">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <br>
+        
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <a href="#" rel="modal:close">Close</a>
+            </div>
+
+            <div id="ex6" class="modal">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          <br>
+          
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <a href="#" rel="modal:close">Close</a>
+              </div>
+
+              <div id="ex7" class="modal">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <br>
+            
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                  <a href="#" rel="modal:close">Close</a>
+                </div>
+
+                <div id="ex8" class="modal">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              <br>
+              
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <a href="#" rel="modal:close">Close</a>
+                  </div>
+
     <article class="footer">
         <div class="Container">
           <div class="master-box">
@@ -545,13 +659,13 @@ Participants will be building a prototype in this 30 hour event. At the end, the
                     Chitkara University, Chandigarh-Patiala National Highway (NH- 64), Rajpura, Punjab.
                  </address>
                </h1>
-                <h1 class="credits">
+                <!-- <h1 class="credits">
                   Made With <span class="Heart">
                     <i class="fa fa-heart"></i>
                    
                   </span>
                   By Team OctaHacks 
-                </h1>
+                </h1> -->
               </div>
           </div>
         </div>
