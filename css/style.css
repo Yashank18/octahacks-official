@@ -9,7 +9,7 @@
 
 
 ::-webkit-scrollbar {
-    width: 0px;
+    width: 3px;
 }
 
 /* Track */
@@ -1924,9 +1924,13 @@ article{
 
 .modal{
     width: 40%;
-    height: auto;
+    height: 50vh;
     overflow-y: scroll;
     border: 5px solid #eea44f;
+
+   
+
+
 }
 
 .modal a{
