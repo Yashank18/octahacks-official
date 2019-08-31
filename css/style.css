@@ -892,7 +892,6 @@ article{
     font-size: 3em;
     background: url(../images/12.jpg)-500px;
     color: rgba(255,255,255,0);
-    -webkit-background-clip: text;
     margin-top: 10%;
 }
 
