@@ -1,0 +1,60 @@
+.contact{
+    width: 100vw;
+    height: auto;
+    background: whitesmoke;
+}
+
+.contact-box{
+    width: 80vw;
+    margin-left: 13vw;
+}
+
+.c1{
+    width: 25%;
+    height: auto;
+    padding: 5%;
+    float: left;
+    border: 2px solid #6c92e7;
+    border-radius: 30px; 
+    margin: 5%;
+    text-align: center;
+}
+
+
+
+.c1 h1{
+    font-size: 30px;
+    color: #555;
+}
+
+.c1 a{
+    text-decoration:  none;
+    color: #777;
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+.coordinator{
+    margin-top: 3%;
+    color: #8166cd;
+    font-size: 20px;
+}
+
+
+@media (max-width: 700px){
+    .c1{
+        width: 70%;
+        height: auto;
+        padding: 5%;
+        float: left;
+        border: 2px solid #6c92e7;
+        border-radius: 30px; 
+        margin: 5%;
+        text-align: center;
+    }
+
+    .footer address{
+        font-size: 1rem;
+    }
+    
+}
