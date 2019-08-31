@@ -1866,7 +1866,7 @@ article{
 
 
 .footer{
-    background: #f5f5f5;
+    background: #e1e1e1;
     height: auto;
 }
 
@@ -1956,14 +1956,76 @@ article{
 }
 
 #top-sec{
-    width: 85vw;
+    width: 90vw;
     margin-left: 10vw;
 }
 
 #top-sec .image-con{
-  margin: 3%;
+  margin: 1%;
 }
 
 .Front-Face h3{
     color: #888;
+}
+
+
+.contact{
+    width: 100vw;
+    height: auto;
+    background: whitesmoke;
+}
+
+.contact-box{
+    width: 80vw;
+    margin-left: 13vw;
+}
+
+.c1{
+    width: 25%;
+    height: auto;
+    padding: 5%;
+    float: left;
+    border: 2px solid #6c92e7;
+    border-radius: 30px; 
+    margin: 5%;
+    text-align: center;
+}
+
+
+
+.c1 h1{
+    font-size: 30px;
+    color: #555;
+}
+
+.c1 a{
+    text-decoration:  none;
+    color: #777;
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+.coordinator{
+    margin-top: 3%;
+    color: #8166cd;
+    font-size: 20px;
+}
+
+
+@media (max-width: 700px){
+    .c1{
+        width: 70%;
+        height: auto;
+        padding: 5%;
+        float: left;
+        border: 2px solid #6c92e7;
+        border-radius: 30px; 
+        margin: 5%;
+        text-align: center;
+    }
+
+    .footer address{
+        font-size: 1rem;
+    }
+    
 }
